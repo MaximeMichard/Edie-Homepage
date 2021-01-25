@@ -1,0 +1,247 @@
+/* Global */
+*{
+    box-sizing: border-box;
+}
+body{
+    margin:0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Header */
+header{
+    display: flex;
+    width: 70%;
+    justify-content: space-between;
+}
+
+
+ul{
+    display: flex;
+    list-style: none;
+}
+li{
+    margin-left: 50px;
+    font-size: 1.3em;
+    font-weight: 900;
+}
+/* Main */
+
+/* Baniere */
+.description{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    padding: 1rem 10rem;
+}
+.description h1 {
+    font-size: 2.5em;
+}
+.text-blue{
+    color:#2D9CDB;
+}
+.baniere img{
+    border-radius: 25px;
+}
+/* Bloc section */
+.section1{
+    padding: 0 10rem;
+}
+.section1 h2{
+    font-size: 2.5em;
+}
+.section1 p{
+    text-align: justify;
+    padding: 1rem 0;
+}
+input{
+    border-radius: 10px;
+    border: 1px solid #F2F2F2;
+    background-color: #F2F2F2;
+    padding: 10px;
+}
+button{
+    border: 1px solid #2D9CDB;
+    border-radius: 12px;
+    padding: 10px 23px;
+    background: #2D9CDB;
+    color:#fff;
+}
+
+/* Card */
+
+.section2 h2{
+    padding: 7rem;
+    font-size: 2em;
+}
+.categorie{
+    display: flex;
+    justify-content: space-between;
+}
+.card{
+    padding: 2rem;
+}
+.fas{
+    padding: 10px;
+    border-radius: 15px;
+}
+.pen{
+    color: #2D9CDB;
+}
+.list{
+    background-color: #EB5757;
+    color:#fff;
+}
+.angle{
+    background-color: #27AE60;
+    color:#fff;
+}
+.card:hover{
+    border-radius: 15px;
+    box-shadow: 10px 5px 5px #F2F2F2;
+    animation: zoom 1s ease-in-out   
+}
+@keyframes zoom{
+    0%{
+        transform: scale(1);
+    }
+    50%{
+        transform: scale(1.1);
+    }
+    100%{
+        transform: scale(1);
+    }
+}
+
+/*Image */
+
+.section3 h4{
+    font-size: 1.5em;
+}
+.section3 h2{
+    padding: 7rem;
+    font-size: 2em;
+}
+.first{
+    display:flex;
+}
+.second{
+    display: flex;
+}
+.footer{
+    text-align: right;
+    color:#2D9CDB;
+}
+.img1,.img2,.img3,.img4{
+    display:flex;
+    flex-direction: column;
+    padding: 0px 1rem;
+}
+.img1,.img3{
+    padding-top: 10rem ;
+}
+.section3 img{
+    border-radius: 15px;
+}
+.section3 small{
+    padding-top: 15px;
+    color:grey
+}
+
+/*Profil photo */
+
+.section4{
+    display:flex;
+    justify-content: space-between;
+    padding: 10rem 0;
+}
+.section4 .text{
+    display: flex;
+    flex-direction: column;
+}
+.section4 .text p{
+    color: #EB5757;
+}
+.section4 .text h2{
+    font-size: 2em;
+}
+.section4 .img{
+    position: relative;
+    display: flex;
+}
+.section4 img{
+    object-fit: cover;
+    padding: 15px;
+    border-radius: 30px;
+}
+.section4 .photo{
+    display: flex;
+    flex-direction: column;
+}
+.relou{
+    height: 300px;
+    position: absolute;
+    top:0;
+    left:-400px;
+    top: 150px;
+}
+
+/* LAST SECTION */
+
+.section5{
+    display:flex;
+    flex-direction: column;
+    padding:10rem 0;
+}
+.section5 h3{
+    font-size: xx-large;
+}
+.section5 .profil{
+    display: flex;
+}
+.section5 img{
+    border-radius: 15px;
+    height: 100px;
+}
+.detail{
+    display:flex;
+    flex-direction: column;
+    padding-left:25px;
+}
+.detail p{
+    font-weight: bold;
+    font-size: 1.2em;
+}
+.detail small{
+    color: #828282;
+}
+
+/* Footer */
+
+footer{
+    position: relative;
+    display: flex;
+    width: 100%;
+    padding: 5rem 0;
+    background-color: #100E1D;
+    color: #fff;
+    justify-content: space-around;
+}
+.partenaire ul{
+    display:flex;
+    flex-direction: column;
+}
+.partenaire li{
+    padding: 0.5rem 0;
+}
+.reseau h4{
+    font-size: 2em;
+    font-weight: bold;
+}
+.name{
+    position: absolute;
+    bottom:0; 
+    padding: 20px 0;
+}
